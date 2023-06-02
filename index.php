@@ -29,7 +29,7 @@
         document.body.appendChild(renderer.domElement);
 
         // Creamos un cargador para cargar el modelo OBJ
-        const loader = new THREE.OBJLoader();
+        const loader = new THREE.OBJLoader2();
 
         let object; // Variable para almacenar el modelo OBJ
 
