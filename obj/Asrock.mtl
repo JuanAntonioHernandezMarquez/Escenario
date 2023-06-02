@@ -1,0 +1,354 @@
+# Wavefront .mtl file  -  created by SpaceDraw
+
+# File created: 23-05-06, 17:57
+
+newmtl standard1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.4901 0.4901 0.4901 
+Kd 0.4901 0.4901 0.4901 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+map_Ka X670E.png
+map_Kd X670E.png
+
+newmtl standard3-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+map_Ka PNL 1.png
+map_Kd PNL 1.png
+
+newmtl standard12-16777216-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.48619998 0.48619998 0.48619998 
+Ke 0.0 0.0 0.0 
+
+newmtl standard12-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.48619998 0.48619998 0.48619998 
+Ke 0.0 0.0 0.0 
+
+newmtl standard4-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+map_Ka PNL 2.png
+map_Kd PNL 2.png
+
+newmtl standard13-16777216-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.48619998 0.48619998 0.48619998 
+Ke 0.0 0.0 0.0 
+
+newmtl standard6-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+map_Ka PNL 4.png
+map_Kd PNL 4.png
+
+newmtl standard15-16777216-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.48619998 0.48619998 0.48619998 
+Ke 0.0 0.0 0.0 
+
+newmtl standard8-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+map_Ka PNL 3.png
+map_Kd PNL 3.png
+
+newmtl standard17-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.48619998 0.48619998 0.48619998 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-6316129
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.6156 0.6156 0.6156 
+Kd 0.6156 0.6156 0.6156 
+Ks 0.49409997 0.49409997 0.49409997 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-16777216
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0 0.0 0.0 
+Kd 0.0 0.0 0.0 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+
+newmtl standard1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.498 0.498 0.498 
+Kd 0.498 0.498 0.498 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+
+newmtl standard5
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.498 0.498 0.498 
+Kd 0.498 0.498 0.498 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+map_Ka PNL 6.png
+map_Kd PNL 6.png
+
+newmtl standard5-16777216
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0 0.0 0.0 
+Kd 0.0 0.0 0.0 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+map_Ka PNL 6.png
+map_Kd PNL 6.png
+
+newmtl standard-16777216
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0 0.0 0.0 
+Kd 0.0 0.0 0.0 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-12763843
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.2392 0.2392 0.2392 
+Kd 0.2392 0.2392 0.2392 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+
+newmtl standard
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-11974327
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.2862 0.2862 0.2862 
+Kd 0.2862 0.2862 0.2862 
+Ks 0.50189996 0.50189996 0.50189996 
+Ke 0.0 0.0 0.0 
+
+newmtl standard10-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+map_Ka Inter PNL.png
+map_Kd Inter PNL.png
+
+newmtl standard2-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+map_Ka Interface PNL.png
+map_Kd Interface PNL.png
+
+newmtl standard11-16777216-1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 1.0 1.0 
+Kd 1.0 1.0 1.0 
+Ks 0.48619998 0.48619998 0.48619998 
+Ke 0.0 0.0 0.0 
+
+newmtl standard113-16777216
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0 0.0 0.0 
+Kd 0.0 0.0 0.0 
+Ks 0.48229998 0.48229998 0.48229998 
+Ke 0.0 0.0 0.0 
+
+newmtl standard113
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.48229998 0.48229998 0.48229998 
+Kd 0.48229998 0.48229998 0.48229998 
+Ks 0.48229998 0.48229998 0.48229998 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-12369085-14536
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 0.77639997 0.2156 
+Kd 1.0 0.77639997 0.2156 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-16777216
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0 0.0 0.0 
+Kd 0.0 0.0 0.0 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+
+newmtl standard1
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.498 0.498 0.498 
+Kd 0.498 0.498 0.498 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-12566464
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.247 0.247 0.247 
+Kd 0.247 0.247 0.247 
+Ks 0.498 0.498 0.498 
+Ke 0.0 0.0 0.0 
+
+newmtl standard3-14536
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 0.77639997 0.2156 
+Kd 1.0 0.77639997 0.2156 
+Ks 0.49409997 0.49409997 0.49409997 
+Ke 0.0 0.0 0.0 
+map_Ka CPU Cap.png
+map_Kd CPU Cap.png
+
+newmtl standard-167772161
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0 0.0 0.0 
+Kd 0.0 0.0 0.0 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+
+newmtl standard-14536
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 1.0 0.7686 0.2078 
+Kd 1.0 0.7686 0.2078 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+
+newmtl standard4-16777216
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0 0.0 0.0 
+Kd 0.0 0.0 0.0 
+Ks 0.4901 0.4901 0.4901 
+Ke 0.0 0.0 0.0 
+
+newmtl standard1-80925401-16777216
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.0 0.0 0.0 
+Kd 0.0 0.0 0.0 
+Ks 0.4745 0.4745 0.4745 
+Ke 0.0 0.0 0.0 
+
