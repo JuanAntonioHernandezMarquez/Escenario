@@ -12,7 +12,6 @@
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
 </head>
 
 <body>
@@ -56,11 +55,11 @@
         function animate() {
             requestAnimationFrame(animate);
 
-            // Movimiento automático
+            // Movimiento automático del cubo
             cube.rotation.x += 0.01;
             cube.rotation.y += 0.01;
 
-            // Movimiento controlado por teclado
+            // Movimiento del cubo controlado por el teclado
             if (keyboardState['ArrowUp']) {
                 cube.position.y += 0.1;
             }
@@ -83,7 +82,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
