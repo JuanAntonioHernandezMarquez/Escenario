@@ -26,9 +26,16 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
 
-        const geometry = new THREE.BoxGeometry(2, 2, 2); // Ajusta los valores de ancho, alto y profundidad
-        const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-        const cube = new THREE.Mesh(geometry, material);
+        const geometry = new THREE.BoxGeometry(10, 10, 10);
+        const materials = [
+            new THREE.MeshBasicMaterial({ color: 0xff0000 }), // Cara frontal - Rojo
+            new THREE.MeshBasicMaterial({ color: 0x00ff00 }), // Cara posterior - Verde
+            new THREE.MeshBasicMaterial({ color: 0x0000ff }), // Cara superior - Azul
+            new THREE.MeshBasicMaterial({ color: 0xffff00 }), // Cara inferior - Amarillo
+            new THREE.MeshBasicMaterial({ color: 0xff00ff }), // Cara derecha - Magenta
+            new THREE.MeshBasicMaterial({ color: 0x00ffff })  // Cara izquierda - Cian
+        ];
+        const cube = new THREE.Mesh(geometry, materials);
         scene.add(cube);
 
         camera.position.z = 15;
