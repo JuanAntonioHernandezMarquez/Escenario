@@ -56,17 +56,22 @@
         function animate() {
             requestAnimationFrame(animate);
 
+            // Movimiento automático
+            cube.rotation.x += 0.01;
+            cube.rotation.y += 0.01;
+
+            // Movimiento controlado por teclado
             if (keyboardState['ArrowUp']) {
-                cube.rotation.x -= 0.01;
+                cube.position.y += 0.1;
             }
             if (keyboardState['ArrowDown']) {
-                cube.rotation.x += 0.01;
+                cube.position.y -= 0.1;
             }
             if (keyboardState['ArrowLeft']) {
-                cube.rotation.y -= 0.01;
+                cube.position.x -= 0.1;
             }
             if (keyboardState['ArrowRight']) {
-                cube.rotation.y += 0.01;
+                cube.position.x += 0.1;
             }
 
             renderer.render(scene, camera);
