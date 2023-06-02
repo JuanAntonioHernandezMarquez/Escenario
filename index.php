@@ -11,7 +11,7 @@
             margin: 0;
         }
     </style>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -40,7 +40,7 @@
         camera.position.z = 15;
 
         // Creamos un objeto para almacenar el estado del teclado
-        const keyboardState = {};
+        const keyboardState = [];
 
         // Función para manejar los eventos de teclado
         function handleKeyDown(event) {
@@ -78,12 +78,11 @@
         animate();
     </script>
 
-<?php include("modules/footer.php"); ?>
-    <!--JavaScript de Bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <?php include("modules/footer.php"); ?>
+    <!-- JavaScript de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
-
