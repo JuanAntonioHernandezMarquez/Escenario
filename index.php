@@ -26,7 +26,7 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
 
-        const geometry = new THREE.BoxGeometry();
+        const geometry = new THREE.BoxGeometry(2, 2, 2); // Ajusta los valores de ancho, alto y profundidad
         const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
         const cube = new THREE.Mesh(geometry, material);
         scene.add(cube);
