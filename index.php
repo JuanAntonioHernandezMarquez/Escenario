@@ -11,14 +11,14 @@
             margin: 0;
         }
     </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
 </head>
 
 <body>
-    <?php include("modules/header.php"); ?> 
+    <?php include("modules/header.php"); ?>
     <script src="js/three.js"></script>
-    <script src="js/ObjectLoader.js"></script> <!-- Se requiere OBJLoader.js para cargar el modelo OBJ -->
     <script>
-     
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 
@@ -26,22 +26,15 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
 
-        // Creamos un cargador para cargar el modelo OBJ
-        const loader = new THREE.OBJLoader();
-
-        let object; // Variable para almacenar el modelo OBJ
-
-        loader.load('obj/Asrock.obj', function (obj) {
-            object = obj;
-            scene.add(object);
-        });
+        const geometry = new THREE.BoxGeometry();
+        const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+        const cube = new THREE.Mesh(geometry, material);
+        scene.add(cube);
 
         camera.position.z = 15;
 
-        // Creamos un objeto para almacenar el estado del teclado
         const keyboardState = {};
 
-        // Función para manejar los eventos de teclado
         function handleKeyDown(event) {
             keyboardState[event.key] = true;
         }
@@ -50,39 +43,35 @@
             keyboardState[event.key] = false;
         }
 
-        // Asociamos los eventos de teclado a las funciones
         window.addEventListener('keydown', handleKeyDown);
         window.addEventListener('keyup', handleKeyUp);
 
         function animate() {
             requestAnimationFrame(animate);
 
-            // Realizamos las transformaciones o animaciones necesarias
-            // en el modelo cargado
             if (keyboardState['ArrowUp']) {
-                object.rotation.x -= 0.01;
+                cube.rotation.x -= 0.01;
             }
             if (keyboardState['ArrowDown']) {
-                object.rotation.x += 0.01;
+                cube.rotation.x += 0.01;
             }
             if (keyboardState['ArrowLeft']) {
-                object.rotation.y -= 0.01;
+                cube.rotation.y -= 0.01;
             }
             if (keyboardState['ArrowRight']) {
-                object.rotation.y += 0.01;
+                cube.rotation.y += 0.01;
             }
 
             renderer.render(scene, camera);
         }
         animate();
     </script>
-     <?php include("modules/footer.php"); ?> 
+    <?php include("modules/footer.php"); ?>
+    <!-- JavaScript de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
-
-   
-
-   
-   
-  
